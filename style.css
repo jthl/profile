@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya|Raleway|Righteous|Roboto+Mono:400,700&display=swap');
+@import url("https://use.fontawesome.com/releases/v5.10.1/css/all.css")
+
+body {
+  font-family: 'Roboto Mono';
+  background-color: rgb(162,162,162);
+}
+
+h1 {
+  font-family: 'Righteous';
+  color:042f4b ;
+}
+
+h2 {
+  font-family:'Alegreya';
+  color:407088 ;
+}
+
+a {
+  font-weight: bold;
+  text-decoration: none;
+  color:da4302 ;
+}
+
+a:hover {
+  color:ff8a5c ;
+}
+
+.card-white {
+  background-color: white;
+  padding: 24px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  width: 500px;
+  margin: 24px auto;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.img-circle {
+  width:100px;
+  border-radius: 50%;
+}
+
+.list-inline{
+  list-style: none;
+  padding: 0;
+}
+
+.list-inline li{
+  display: inline-block;
+  width: 50px ;
+}
